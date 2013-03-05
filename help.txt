@@ -1,0 +1,19 @@
+Here's the help file for the Formula Game 9K!
+
+The width of the track is defined in the beginning of the track.py file.
+Player names must atleast 1 character long and may not include spaces.
+
+Start the game by pressing the start button.
+
+The quick game will start a game with track found in "track1.txt" and 
+player names "player1" and "player2".
+
+The cars can be moved by numbers 1-9.
+
+If you hit the other car you will lose.
+
+The one who drives over the finish line faster, wins the game. The results will be saved to the results.txt.
+
+Bananas (marked by x on the map) move the direction of the car!
+
+HAVE FUN!
