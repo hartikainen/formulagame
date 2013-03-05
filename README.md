@@ -1,13 +1,10 @@
 Formulagame
 ===========
 
-Simple turn-based formula game, created with Python and PyQt4.
-
-The game is developed for a course programming course in Aalto University.
+A simple turn-based formula game, created with Python and PyQt4 for a programming course in Aalto University.
 
 The rules are as follows:
-
-Moving: 
+MOVING: 
   Cars have 5 gears. The speed and the turn radius depends on the gear.
     - On every turn, the player can change the gear one step up or down.
     - Also, the car can be turned by one step per turn.
@@ -61,3 +58,12 @@ Moving:
                       .
                        .
                         5
+
+GENERAL:
+  The players move their cars one by one, based on the moving rules described above.
+    - Both cars start the race by facing right.
+    - If a player drives out of the road, the game ends and he loses. The player has to stay
+    on the road, on every point between the initial point and the end point. This is checked by using
+    Bresenham's algorithm.
+    - Two cars cannot be on the same point at the same time. If the player hits the opponent, he loses.
+    - The winner is the player, who drives over the finish line first.
