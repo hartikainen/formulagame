@@ -5,7 +5,7 @@ A simple turn-based formula game, created with Python and PyQt4 for a programmin
 
 The rules are as follows:
 MOVING: 
-  - Cars have 5 gears. The speed and the turn radius depends on the gear.
+  Cars have 5 gears. The speed and the turn radius depends on the gear.
     - On every turn, the player can change the gear one step up or down.
     - Also, the car can be turned by one step per turn.
     - When changing the gear, the direction of the car is the one that's closer
@@ -28,7 +28,7 @@ MOVING:
                             *********  *         *
                                        ***********
 
-  - For example, a car driving on gear 2, the car would turn 90 degrees like this:
+  For example, a car driving on gear 2, the car would turn 90 degrees like this:
 
            0.1.         
                .2   
@@ -39,13 +39,13 @@ MOVING:
                    .
                    5
 
-  - Example 2, a car moving on gear 1 and turning 90 degrees:
+  Example 2, a car moving on gear 1 and turning 90 degrees:
 
           01         
             2   
             3   
 
-  - Example 3, a car changing gear up between the moves and turning at the same time:
+  Example 3, a car changing gear up between the moves and turning at the same time:
 
           01.
             .2
