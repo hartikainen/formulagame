@@ -12,7 +12,7 @@ MOVING:
     to the last turn's direction. This is calculated by using arcsin of both moves
     and comparing them to each other.
 
-  - The move options for all five geas have been presented below:
+   The move options for all five geas have been presented below:
 
       (1)    (2)      (3)       (4)         (5)
 
